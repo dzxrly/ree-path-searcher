@@ -12,11 +12,8 @@ name = "ree-path-searcher"
 path = "src/main.rs"
 
 [dependencies]
-# # local development
-# ree-pak-core = { path = "../../ree-pak-rs/ree-pak-core" }
-
-# remote
-ree-pak-core = { git = "https://github.com/eigeen/ree-pak-rs.git", rev = "56b3003", package = "ree-pak-core" }
+# Patched core 0.8.0 with remap entry support.
+ree-pak-core = { git = "https://github.com/dzxrly/ree-pak-rs.git", rev = "fef67eca78721b6f86fe2027c8f2e37e44c787d1", package = "ree-pak-core" }
 
 clap = { version = "4.5", features = ["derive"] }
 color-eyre = "0.6"

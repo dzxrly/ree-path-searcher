@@ -1014,8 +1014,8 @@ dependencies = [
 
 [[package]]
 name = "ree-pak-core"
-version = "0.7.1"
-source = "git+https://github.com/eigeen/ree-pak-rs.git?rev=56b3003#56b3003f81037b292a99dd7acdbf74d321836fa4"
+version = "0.8.0"
+source = "git+https://github.com/dzxrly/ree-pak-rs.git?rev=fef67eca78721b6f86fe2027c8f2e37e44c787d1#fef67eca78721b6f86fe2027c8f2e37e44c787d1"
 dependencies = [
  "bitflags",
  "byteorder",
